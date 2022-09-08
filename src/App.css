@@ -1,0 +1,66 @@
+* {
+  font-family: "Open Sans";
+}
+body {
+  background-image: URL("./images/BG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 500px;
+  min-height: 500px;
+  background: white;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 5px;
+}
+
+h1 {
+  margin: 32px 0;
+  font-size: 24px;
+  font-family: "SF Pro Display";
+}
+
+.todo-form {
+  margin-bottom: 32px;
+}
+
+.todo-button {
+  padding: 16px;
+  border: none solid #3f81dd;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.todo-input {
+  padding: 15px 32px 15px 16px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #c6c6c6;
+  outline: none;
+  width: 320px;
+  background: transparent;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 10px auto;
+  padding: 6px 32px;
+  border: 1px solid rgb(211, 210, 210);
+  border-radius: 5px;
+}
