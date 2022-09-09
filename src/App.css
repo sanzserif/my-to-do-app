@@ -1,5 +1,5 @@
 * {
-  font-family: "Open Sans";
+  font-family: "SF Pro Display";
 }
 body {
   background-image: URL("./images/BG.jpg");
@@ -13,7 +13,7 @@ body {
   justify-content: flex-start;
   width: 500px;
   min-height: 500px;
-  background: white;
+  background: #FFFAF4;
   text-align: center;
   margin: 128px auto;
   border-radius: 5px;
@@ -22,7 +22,6 @@ body {
 h1 {
   margin: 32px 0;
   font-size: 24px;
-  font-family: "SF Pro Display";
 }
 
 .todo-form {
@@ -30,9 +29,10 @@ h1 {
 }
 
 .todo-button {
-  padding: 16px;
-  border: none solid #3f81dd;
+  padding: 15px;
   border-radius: 5px 5px 5px 5px;
+  background-color: #7D5729;
+  border: .5px solid #EAAC61;
   cursor: pointer;
   outline: none;
   color: #fff;
@@ -42,10 +42,10 @@ h1 {
 .todo-input {
   padding: 15px 32px 15px 16px;
   border-radius: 5px 5px 5px 5px;
-  border: 1px solid #c6c6c6;
+  border: .5px solid #EAAC61;
   outline: none;
   width: 320px;
-  background: transparent;
+  background: #F3E5D4;
 }
 
 ul {
@@ -58,9 +58,10 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin: 10px auto;
   padding: 6px 32px;
-  border: 1px solid rgb(211, 210, 210);
+  border: 1px solid #FFDEB7;
+  background: #F3E5D4;
   border-radius: 5px;
+  font-size: 14px;
 }
